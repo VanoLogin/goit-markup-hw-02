@@ -28,7 +28,6 @@ li, ul, h1, h2, a {
 }
 .header-logo {
     font-family: 'Raleway';
-    font-style: normal;
     color: var(--second-primary-color);
     font-weight: 700;
     font-size: 26px;
@@ -63,7 +62,7 @@ li, ul, h1, h2, a {
 .header-email:hover,
 .header-tel:hover,
 .header-link:hover {
-    background-color: var(--logo-color-button);
+   color: var(--logo-color-button);
 }
 
 
@@ -81,12 +80,12 @@ li, ul, h1, h2, a {
 }
 .hero-btn {
     font-family: inherit;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
     color: var(--primary-header-color);
+    cursor: pointer;
 }
 button {
     background: var(--logo-color-button);
@@ -105,7 +104,6 @@ button {
 }
 .second-title {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -140,7 +138,6 @@ button {
 }
 .team-title {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -161,7 +158,6 @@ address-list, a {
 }
 .logo-footer{
     font-family: 'Raleway';
-    font-style: normal;
     color: var(--logo-color-button);
     font-weight: 700;
     font-size: 26px;
@@ -170,7 +166,6 @@ address-list, a {
 }
 .footer-logo {
     font-family: 'Raleway';
-    font-style: normal;
     color: var(--primary-header-color);
     font-weight: 700;
     font-size: 26px;
@@ -207,4 +202,28 @@ address-list, a {
     color: rgba(255, 255, 255, 0.6);
     padding: 0;
 
+}
+/* ----------------------------Portfolio-------------------------- */
+.button-portfolio {
+    background: #F5F4FA;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button-portfolio:hover {
+    color: var(--primary-header-color);
+    background-color: var(--logo-color-button);
+}
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.portfolio-pre-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
