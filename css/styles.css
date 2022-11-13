@@ -1,0 +1,210 @@
+:root {
+    --primary-header-color: #FFFFFF;
+    --second-primary-color: #212121;
+    --logo-color-button:  #2196F3;
+    --color-p-text: #757575;
+}
+body{
+    font-family: "Roboto", 'Raleway';
+    background-color: var(--primary-header-color);
+    list-style-type: none
+}
+link {
+    text-decoration: none;
+    list-style: none
+}
+.list {
+    list-style: none;
+    
+}
+li, ul, h1, h2, a {
+    text-decoration: none;
+    list-style: none
+}
+
+/*--------------HEADER------------------- */
+.header{
+    background-color: var(--primary-header-color);
+}
+.header-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    color: var(--second-primary-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.color-logo {
+    color: var(--logo-color-button);
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-primary-color);
+}
+.header-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-p-text);
+}
+.header-email {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-primary-color);
+}
+.header-email:hover,
+.header-tel:hover,
+.header-link:hover {
+    background-color: var(--logo-color-button);
+}
+
+
+/* -------------hero---------------- */
+.title {
+    font-family: 'Roboto' sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-header-color);
+    background-color: #2F303A;
+}
+.hero-btn {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--primary-header-color);
+}
+button {
+    background: var(--logo-color-button);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/* ----------------------HERO_TOPIC_---------- */
+.main-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-primary-color);
+}
+.second-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--color-p-text);
+}
+/* -----------------What we are do------------ */
+.about-hero {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-primary-color);
+}
+
+/* --------------------Our TEAM--------- */
+.team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-primary-color);
+}
+.team-list {
+
+}
+.team-items {
+
+
+}
+.team-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--second-primary-color);
+}
+.team-pre-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--color-p-text);
+}
+
+/* ------------------------ФУТер ------------ */
+address-list, a {
+    font-style: normal;
+}
+.logo-footer{
+    font-family: 'Raleway';
+    font-style: normal;
+    color: var(--logo-color-button);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    color: var(--primary-header-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.footer-block {
+ background-color: #2F303A;
+}
+.footer-link-adress {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    padding: 0;
+
+}
+.footer-link-email{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 0;
+
+}
+.footer-link-tel{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 0;
+
+}
