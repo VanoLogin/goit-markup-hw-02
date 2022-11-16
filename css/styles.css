@@ -5,9 +5,15 @@
     --color-p-text: #757575;
 }
 body{
-    font-family: "Roboto", 'Raleway';
+    color: var(--primary-header-color)
+    font-family: "Roboto", 'Raleway', "Open Sans", Verdana, sans-serif;
     background-color: var(--primary-header-color);
     list-style-type: none
+    letter-spacing: inherit
+    line-height: inherit
+    font-size: 16px;
+    
+    
 }
 link {
     text-decoration: none;
@@ -45,28 +51,25 @@ li, ul, h1, h2, a {
     letter-spacing: 0.02em;
     color: var(--second-primary-color);
 }
-.header-tel {
+.address-link {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--color-p-text);
 }
-.header-email {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--second-primary-color);
-}
-.header-email:hover,
-.header-tel:hover,
+.address-link:hover,
 .header-link:hover {
    color: var(--logo-color-button);
 }
 
 
 /* -------------hero---------------- */
+.hero {
+    background-color: #2F303A;
+}
 .title {
     font-family: 'Roboto' sans-serif;
     font-weight: 900;
@@ -76,7 +79,6 @@ li, ul, h1, h2, a {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--primary-header-color);
-    background-color: #2F303A;
 }
 .hero-btn {
     font-family: inherit;
@@ -156,6 +158,9 @@ button {
 address-list, a {
     font-style: normal;
 }
+address-list, a:hover {
+    color: var(--logo-color-button);
+}
 .logo-footer{
     font-family: 'Raleway';
     color: var(--logo-color-button);
@@ -182,24 +187,6 @@ address-list, a {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    padding: 0;
-
-}
-.footer-link-email{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    padding: 0;
-
-}
-.footer-link-tel{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
     padding: 0;
 
 }
