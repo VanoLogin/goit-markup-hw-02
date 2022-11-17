@@ -14,15 +14,14 @@ body{
 }
 link {
     text-decoration: none;
-    list-style: none
+    list-style: none;
 }
 .list {
     list-style: none;
-    
+    text-decoration: none;
 }
 li, ul, h1, h2, a {
     text-decoration: none;
-    list-style: none
 }
 
 /*--------------HEADER------------------- */
@@ -82,7 +81,7 @@ li, ul, h1, h2, a {
     cursor: pointer;
     background: #2196F3;
 }
-------------------HERO_TOPIC_---------- */
+/* ------------------HERO_TOPIC_---------- */ 
 .main-title {
     font-weight: 700;
     font-size: 14px;
@@ -140,10 +139,15 @@ li, ul, h1, h2, a {
 }
 
 /* ------------------------ФУТер ------------ */
-address-list, a {
+.address-list, a {
     font-style: normal;
+    list-style-type: none;
+    
 }
-address-list, a:hover {
+.address-list:hover {
+    color: var(--logo-color-button);
+}
+.footer-link-adress:hover {
     color: var(--logo-color-button);
 }
 .logo-footer{
