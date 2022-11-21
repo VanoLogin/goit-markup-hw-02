@@ -5,15 +5,14 @@
     --color-p-text: #757575;
 }
 body{
-    color: var(--primary-header-color);
+    color: var(--second-primary-color);
     font-family: "Roboto", sans-serif;
-    list-style-type: none;
-    letter-spacing: normal;
+    letter-spacing: 0.4em;
     line-height: 1.5;
     font-size: 16px;
     margin: 0;
 }
-link {
+.link {
     text-decoration: none;
     list-style: none;
 }
@@ -21,13 +20,32 @@ link {
     list-style: none;
     text-decoration: none;
 }
+ul {
+    padding: 0;
+    margin: 0;
+}
+
 li, ul, h1, h2, a {
     text-decoration: none;
+    list-style-type: none;
 }
 
 /*--------------HEADER------------------- */
-.header{
+
+.header-nav > ul> li {
+    list-style-type: none;
+}
+
+.header-list {
+    display: flex;
+    padding-left: 15px;
+}
+.header-list .item {
+    margin-right: 50px;
+}
+.page-header {
     background-color: var(--primary-header-color);
+    
 }
 .header-logo {
     color: var(--second-primary-color);
@@ -58,24 +76,36 @@ li, ul, h1, h2, a {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--color-p-text);
+    padding-left: 15px;
 }
 .address-link:hover,
 .header-link:hover {
    color: var(--logo-color-button);
 }
-/* -------------hero---------------- */
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    outline: 2px solid tomato;
+}
+/* -------------Main---------------- */
 
 .hero {
-    background-color: #2F303A;
+    background-color: var(--color-p-text);
+    text-align: center;
 }
-.title {
+.hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
+    
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--primary-header-color);
+    color: var(--second-primary-color);
+    margin-top: 0;
+    margin-bottom: 30px;
+    
 }
 .hero-btn {
     font-weight: 700;
@@ -87,6 +117,15 @@ li, ul, h1, h2, a {
     background: #2196F3;
 }
 /* ------------------HERO_TOPIC_---------- */ 
+h2, p, h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.topic-list {
+    margin-bottom: 94px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .main-title {
     font-weight: 700;
     font-size: 14px;
@@ -94,6 +133,8 @@ li, ul, h1, h2, a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--second-primary-color);
+
+    margin-bottom: 10px
 }
 .second-title {
     font-weight: 400;
@@ -110,6 +151,11 @@ li, ul, h1, h2, a {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-primary-color);
+    margin-bottom: 50px;
+
+}
+.about-img {
+    margin-bottom: 94px;
 }
 
 /* --------------------Our TEAM--------- */
@@ -120,20 +166,26 @@ li, ul, h1, h2, a {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-primary-color);
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
+.about-img {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .team-list {
-
+    padding-left: 15px;
+    padding-right: 15px;
 }
-.team-items {
 
-
-}
 .team-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--second-primary-color);
+    margin-bottom: 10px;
 }
 .team-pre-title {
     font-weight: 400;
@@ -141,6 +193,10 @@ li, ul, h1, h2, a {
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--color-p-text);
+    margin-bottom: 30px;
+}
+.img-team {
+    margin-bottom: 30px;
 }
 
 /* ------------------------ФУТер ------------ */
