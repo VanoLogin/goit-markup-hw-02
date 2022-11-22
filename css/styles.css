@@ -40,7 +40,7 @@ li, ul, h1, h2, a {
     display: flex;
     padding-left: 15px;
 }
-.header-list .item {
+.header-list > li {
     margin-right: 50px;
 }
 .page-header {
